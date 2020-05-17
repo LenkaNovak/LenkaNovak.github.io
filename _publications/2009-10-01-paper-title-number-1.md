@@ -1,15 +1,18 @@
 ---
-title: "Paper Title Number 1"
+title: "Midwinter suppression of storm tracks in an
+idealized zonally symmetric setting"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/Novak_etal_19
+excerpt: 'This paper uses an idealized aquaplanet to demonstrate that the observed suppression in midwinter storminess is a fundamental property of storm tracks, even on planets without continents'
+date: 2009-12-19
+venue: 'J. Atmos. Sci.'
+paperurl: 'https://journals.ametsoc.org/doi/full/10.1175/JAS-D-18-0353.1?mobileUi=0'
+
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+
+
+
+
+
