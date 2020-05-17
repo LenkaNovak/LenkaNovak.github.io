@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-Research
-======
 My work focuses on mid-latitude storm tracks and their interaction with the associated eddy-driven jet streams. I use idealized simulations of the global atmosphere combined with observations, in order to develop theoretical understanding for extreme weather under the current, past and future climates.
  
 Climate Modelling Alliance (CliMA)
