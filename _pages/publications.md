@@ -15,9 +15,6 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-
-- Novak, L., T. Schneider, and F. Ait-Chaalal (2019) Midwinter suppression of storm tracks in an
-idealized zonally symmetric setting, J. Atmos. Sci., 77 (1): 297-313.
 - Ruggieri, P., Kucharski, F., Novak, L. (2019) The Response of the Midlatitude Jet to Regional Polar
 Heating in a Simple Storm-Track Model, J. Clim., 32 (10): 2869-2885.
 - Novak, L., Tailleux, R. (2018) On the Local View of Atmospheric Available Potential Energy, J.
