@@ -11,7 +11,7 @@ location: "Vienna, Austria"
 ---
 
 ## Overview
-This talk is on the approximately periodic monthly oscillations in storminess in the North Atlantic and Pacific storm track, using a predator-prey model as an analogy for the relationship between storminess and its growth rate. We use these two variables as coordinates of a new dynamical phase space. Averaging over this new phase space reveals new relationships between storminess oscillations and jet stream variability.
+We use these storminess and large-scale thermal contrast as coordinates to create a new dynamical phase space. Averaging over this phase space reveals new relationships between storminess oscillations and jet stream variability.
 
 ## Abstract
 ### Lenka Novak, Maarten H.P. Ambaum, Remi Tailleux
