@@ -1,12 +1,11 @@
 ---
-title: "A Minimal Model for
-the Midwinter Minimum"
+title: "Lifecycle of storm tracks "
 collection: talks
-type: "Talk"
+type: "Invited Talk"
 permalink: 
-venue: "American Geophysical Union, San Francisco"
-date: 2019-12-09
-location: "San Francisco, California"
+venue: "European Geophysical Union, Vienna"
+date: 2017-04-26
+location: "Vienna, Austria"
 ---
 
 ---
