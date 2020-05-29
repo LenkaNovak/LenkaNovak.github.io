@@ -7,7 +7,6 @@ venue: "University of Mainz"
 date: 2017-10-13
 location: "Mainz, Germany"
 ---
-
 ---
 
 ## Overview
