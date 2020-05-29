@@ -8,6 +8,7 @@ venue: "American Geophysical Union, San Francisco"
 date: 2019-12-09
 location: "San Francisco, California"
 ---
+---
 
 ## Overview
 The North Pacific storminess in mid-winter is less intense than should be according to classical theories. We use idealized models of simplified physics and no continents to investigate this phenomenon in a more general setting. Using these simulations helps us pick out important processes that determine the storminess. We quantify the importance of these processes using a scaling which may be useful for indicating the onset of these midwinter suppressions, and thus help predict wind storm intensity on the western coasts of America and Europe. 
