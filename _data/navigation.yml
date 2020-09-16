@@ -1,19 +1,18 @@
 # main links links
 main:
-    - title: "Research interests"
-      url: /research_interests/
-
+  #- title: "Research interests"
+  #  url: /research_interests/
   - title: "Publications"
     url: /publications/
 
   - title: "Talks"
     url: /talks/
 
- - title: "Teaching"
-    url: /teaching/ 
+  - title: "Teaching"
+    url: /teaching/
 
-   - title: "Visualisation"
-      url: /visualisation/
+  #- title: "Visualisation"
+  #  url: /visualisation/
 
 #  - title: "Portfolio"
 #    url: /portfolio/
