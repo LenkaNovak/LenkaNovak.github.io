@@ -181,6 +181,12 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  research_interests:
+    output: true
+    permalink: /:collection/:path/
+  visualisation:
+      output: true
+      permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -222,6 +228,24 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _research_interests
+  - scope:
+      path: ""
+      type: research_interests
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _visualisation
+  - scope:
+      path: ""
+      type: visualisation
     values:
       layout: single
       author_profile: true
