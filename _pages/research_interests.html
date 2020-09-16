@@ -8,7 +8,6 @@ author_profile: true
 {% include base_path %}
 
 
-<html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -17,6 +16,88 @@ author_profile: true
 </head>
 <body>
 
+<div class="container">
+  <h2>Simple Collapsible</h2>
+  <a href="#demo" class="btn btn-info" data-toggle="collapse">Simple collapsible</a>
+  <div id="demo" class="collapse">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  </div>
+</div>
+
+
+
+
+
+<table width="500px" height="100%" border="0">
+
+<tr>
+
+<td>
+<img src="/images/AN14_phaseplot.png" alt="description here" />
+</td>
+
+<td>
+  <H2>Extreme storminess occurs on monthly timescales:</H2>
+  <p>This is a fundamental property of the nonlinearly oscillatory relationship between the storminess and the sharp temperature gradients that give rise to storminess in the first place. Much the same as a biological predator-prey model where storminess feeds on the gradients until they are eaten up to the point they can no longer sustain new growth of storms. The subsequent reduced storminess then allows the gradients to build up again by (e.g. radiative) forcing and the cycle repeats. Borrowing concepts from dynamical systems, we developed a pen-and-paper model that describes this behaviour and models some of the detailed properties of the real atmosphere.</p>
+</td>
+
+</tr>
+<tr>
+
+<td>
+  <H2>Extreme storminess occurs on monthly timescales:</H2>
+  <p>This is a fundamental property of the nonlinearly oscillatory relationship between the storminess and the sharp temperature gradients that give rise to storminess in the first place. Much the same as a biological predator-prey model where storminess feeds on the gradients until they are eaten up to the point they can no longer sustain new growth of storms. The subsequent reduced storminess then allows the gradients to build up again by (e.g. radiative) forcing and the cycle repeats. Borrowing concepts from dynamical systems, we developed a pen-and-paper model that describes this behaviour and models some of the detailed properties of the real atmosphere.</p>
+</td>
+
+<td>
+<img src="/images/AN14_phaseplot.png" alt="description here" />
+</td>
+
+</tr>
+</table>
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: white;
+  color: yellow;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #DEFCFF;
+}
+
+.content {
+  padding: 0 18px;
+  display: true;
+  background-color: white;
+}
+</style>
 
 
 <button type="button" class="collapsible">Introduction to Midlatitude Wind Storms and Jet Streams</button>
@@ -24,5 +105,20 @@ author_profile: true
   Midlatitude weather is primarily controlled by large-scale turbulence, which determines extreme weather (weather bombs, extreme precipitation, gustiness, aircraft turbulence in upper atmosphere) and long-term conditions (heat waves, droughts). Understanding and good prediction of its behaviour can therefore save lives, avoid property damage, and mitigate loss to the agricultural, transport and energy industries.
 </div>
 
-</body>
-</html>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    this.parentNode.nextElementSibling;
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
