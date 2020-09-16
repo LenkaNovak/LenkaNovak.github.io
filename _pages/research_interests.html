@@ -7,6 +7,55 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.research_interests reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.collapsible {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+</style>
+</head>
+
+
+<button type="button" class="collapsible">Introduction to Midlatitude Wind Storms and Jet Streams</button>
+<div class="content">
+  <p>Midlatitude weather is primarily controlled by large-scale turbulence, which determines extreme weather (weather bombs, extreme precipitation, gustiness, aircraft turbulence in upper atmosphere) and long-term conditions (heat waves, droughts). Understanding and good prediction of its behaviour can therefore save lives, avoid property damage, and mitigate loss to the agricultural, transport and energy industries. </p>
+
+  <p>This large-scale turbulence arises due to the earth’s rotation and the strong temperature contrast between the equator and the poles making the atmosphere (“baroclinically”) unstable. This instability manifests itself as waves (meanders) in the global jet streams and/or individual eddies (vortices, storms). The regions where these eddies occur most frequently are referred to as storm tracks. This is different from a track of an individual storm, such as the path of a hurricane. A storm track in the statistical sense is analogous to a footprint of its eddies, and is measurable using the eddy kinetic energy, or other similar eddy variance/covariance quantities (F1). The storm track variability allows us to investigate the probabilistic behaviour and overall impact of the wind storms that form the storm track. </p>
+
+  <p>Despite the vast existing research devoted to it and its importance for determining midlatitude weather, the interaction between storm track eddies, planetary-scale waves and the jet streams remains far from being fully understood. The addition of moisture and cloud processes, as well as incoming perturbations from the tropics, polar regions, oceans and the stratosphere further complicate our physical understanding, precise forecasting, and robust longer-term prediction of the midlatitude weather. The fact that storm tracks remain one of the major sources of uncertainty in the most sophisticated CMIP6 climate models is a testament of that. </p>
+</div>
+
+
+<p>I am interested in disentangling the components of the complex nonlinear large-scale dynamics in the midlatitudes, using diverse tools, ranging from recent advancements in pen-and-paper theories (e.g., quasi-linear growth  baroclinic and barotropic instability and applicability of dynamical systems theories), idealised numerical simulations (e.g. barotropic model, shallow water equation model and dry dynamical cores), mid-range complexity models (e.g., moist aquaplanet models with and without clouds), realistic earth system models (e.g., CliMA’s ClimateMachine.jl, ECMWF’s IFS), local eddy-resolving models (e.g., large-eddy simulations), observations (e.g., ERA and NCEP reanalyses, satellite observations), feature tracking (e.g., TEMPEST, TRACK) and statistical methods (e.g. neural networks, random forests, parameter optimisation). Using this hierarchy of tools, I am hoping to provide robust physical theoretical frameworks to help reduce the large uncertainties in climate projections and better identify error precursors in numerical and statistical weather forecasts. </p>
+
+<p>Here is a selection of how I have used these tools so far: </p>
+
+
+<table width="500px" height="100%" border="1">
+
+<tr>
+
+<td>
+<img src="/images/AN14_phaseplot.png" alt="description here" />
+</td>
+
+<td>
+  <H2>Extreme storminess occurs on monthly timescales:</H2>
+
+  <p>This is a fundamental property of the nonlinearly oscillatory relationship between the storminess and the sharp temperature gradients that give rise to storminess in the first place. Much the same as a biological predator-prey model where storminess feeds on the gradients until they are eaten up to the point they can no longer sustain new growth of storms. The subsequent reduced storminess then allows the gradients to build up again by (e.g. radiative) forcing and the cycle repeats. Borrowing concepts from dynamical systems, we developed a pen-and-paper model that describes this behaviour and models some of the detailed properties of the real atmosphere.</p>
+</td>
+
+</tr>
+
+</table>
