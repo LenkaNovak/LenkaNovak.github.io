@@ -14,12 +14,12 @@ These are examples of useful scripts for visualising output from ClimateMachine.
 
 - performance info tracking
 
+- plot the last timestep before crashing
 
 
-## VizCLIMA only scripts
+## VizCLIMA scripts for stand alone analysis of NetCDF files
 
-
-
+- GCM debugging
 
 
 
