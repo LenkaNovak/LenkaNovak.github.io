@@ -6,7 +6,8 @@ collection: visualisation
 
 These are examples of useful scripts for visualising output from ClimateMachine.jl
 
-## VizCLIMA scripts (for stand alone analysis of NetCDF files)
+## VizCLIMA
+### Scripts (for stand alone analysis of NetCDF files)
 - General
   - file load + info
   - file splitting
@@ -19,18 +20,19 @@ These are examples of useful scripts for visualising output from ClimateMachine.
   - vertical profiles
   - spectra
 
-## Gallery (use the scripts above)
+### Gallery (use the scripts above)
 
-## End-to-end scripts
+## End-to-end
+### Scripts
 - [basic end-to-end](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts)
 - [multi-experiment runs with performance info tracking](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts#step-by-step)
 
-## End-to-end demos
+### Demos
 - basic gcm
 - plot the last timestep before crashing
 - sensitivity experiments
 
-References:
+## References:
 - [setup jupyter notebook environment](https://github.com/CliMA/ClimateMachine.jl/wiki/Visualization)
 - [end-to-end bash scripts](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts)
 - [setup SLURM environment on Caltech's HPC and run ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl/wiki/Caltech-Central-Cluster) (updated with each release): choose to run on CPU or GPU
