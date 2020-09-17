@@ -10,7 +10,7 @@ author_profile: true
 ### Julia and Python scripts and notebooks
 - [Bash scripts](_visualisation/slurm_bash_scripts.md):end to end run-analysis pipeline
 - [VizCLIMA](https://github.com/CliMA/VizCLIMA.jl)
-- [Plotly scripts](/_visualisation/plotly_scripts.md)
+- [Plotly scripts](terms.md)
 - Remote access of notebooks
 
 ### DataViz project
