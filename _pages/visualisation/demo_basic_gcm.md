@@ -17,7 +17,7 @@ Say I want to run the GCM in the Held Suarez setup, using the GCMdriver (modular
     - `.../restart/` containing all restart `.jld2` files from individual nodes
     - `.../log/` containing `model_log_err.out` logfile
     - `.../analysis` with:
-        - `general-gcm-notebook-setup.jl` copied from VizCLIMA [click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.jl)
+        - `general-gcm-notebook-setup.jl` copied from VizCLIMA ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.jl))
         - `zontal_mean.pdf`
         - `vertical_slice.pdf`
         - `general-gcm-notebook-setup.ipynb` Juputer Notebook automatically generated from `general-gcm-notebook-setup.jl` ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.ipynb))
