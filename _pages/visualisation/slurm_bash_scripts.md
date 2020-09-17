@@ -29,7 +29,7 @@ These are examples of useful scripts for visualising output from `ClimateMachine
 - [Set up multi-experiment GCM runs with performance info tracking on GPU](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts#step-by-step)
 
 ### Demos
-- [Basic GCM: run and plot](visualisation/demo_basic_gcm.md)
+- [Basic GCM: run and plot](demo_basic_gcm.md)
 - plot the last timestep before crashing
 - sensitivity experiments
 NB: these demos are based on the ClimateMachine.jl v0.2 release.
