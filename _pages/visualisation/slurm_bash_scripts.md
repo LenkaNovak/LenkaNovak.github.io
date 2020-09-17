@@ -6,7 +6,7 @@ collection: visualisation
 
 These are examples of useful scripts for visualising output from ClimateMachine.jl
 
-## VizCLIMA scripts for stand alone analysis of NetCDF files
+## VizCLIMA scripts (for stand alone analysis of NetCDF files)
 - General
   - file load + info
   - file splitting
@@ -28,6 +28,7 @@ These are examples of useful scripts for visualising output from ClimateMachine.
 ## End-to-end demos
 - basic gcm
 - plot the last timestep before crashing
+- sensitivity experiments
 
 References:
 - [setup jupyter notebook environment](https://github.com/CliMA/ClimateMachine.jl/wiki/Visualization)
