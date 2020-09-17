@@ -1,7 +1,7 @@
 ---
 title: "SLURM Bash Scripts"
 excerpt: "for developers and students working on Caltech's HPC cluster"
-collection: _visualisation
+permalink: /bash/
 ---
 
 These are examples of useful scripts for visualising output from ClimateMachine.jl
