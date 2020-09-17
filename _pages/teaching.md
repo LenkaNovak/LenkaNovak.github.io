@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 Model code:
-dynamics (still under development - please contact me for access)
+
 - [CliMA's ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl)
 - [ECMWF's Open IFS](https://www.ecmwf.int/en/research/projects/openifs)
 - [ICTP's SPEEDY](https://www.ictp.it/research/esp/models/speedy.aspx)
@@ -14,7 +14,7 @@ dynamics (still under development - please contact me for access)
 - [GFDL's Idealized Spectral Model](https://www.gfdl.noaa.gov/idealized-spectral-models-quickstart/)
 
 Analysis code:
-- [DynamicsToolbox](https://github.com/LenkaNovak/Teaching_tools): scripts for analysing large-scale circulation features and statistics
+- [DynamicsToolbox](https://github.com/LenkaNovak/Teaching_tools): scripts for analysing large-scale circulation features and statistics (still under development - please contact me for access)
 - [VizCLIMA.jl](https://github.com/CliMA/VizCLIMA.jl): analysis and plotting scripts in Julia
 
 Observations and reanalysis data:
