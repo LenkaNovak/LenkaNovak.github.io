@@ -7,7 +7,7 @@ author_profile: true
 
 Model code:
 dynamics (still under development - please contact me for access)
-- [CliMA's ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl): CliMA's Earth System Model
+- [CliMA's ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl)
 - [ECMWF's Open IFS](https://www.ecmwf.int/en/research/projects/openifs)
 - [ICTP's SPEEDY](https://www.ictp.it/research/esp/models/speedy.aspx)
 - [Hamburg's PlaSim and PUMA](https://www.mi.uni-hamburg.de/en/arbeitsgruppen/theoretische-meteorologie/modelle/plasim.html)
