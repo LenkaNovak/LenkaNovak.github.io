@@ -5,13 +5,13 @@ permalink: /visualisation/
 author_profile: true
 ---
 
-# CliMA-specific tools
+## CliMA-specific tools
 
-## Caltech cluster bash scripts and VizClima
+### Caltech cluster bash scripts and VizClima
 
-## DataViz project
+### DataViz project
 
-# Interactive software packages
+## Interactive software packages
 - There are various third party software packages that enable instant 3D interactive visualisation, slicing and animations of our data (NetCDF format by default), as well as conversion to other data formats. Examples include:
   - [ParaView](https://www.paraview.org)
   - [VisIt](https://visitusers.org/index.php?title=Main_Page)
