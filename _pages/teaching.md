@@ -14,7 +14,7 @@ dynamics (still under development - please contact me for access)
 - [GFDL's Idealized Spectral Model](https://www.gfdl.noaa.gov/idealized-spectral-models-quickstart/)
 
 Analysis code:
-- [DynamicsToolbox](https://github.com/LenkaNovak/Teaching_tools): scripts for analysing large-scale
+- [DynamicsToolbox](https://github.com/LenkaNovak/Teaching_tools): scripts for analysing large-scale circulation features and statistics
 - [VizCLIMA.jl](https://github.com/CliMA/VizCLIMA.jl): analysis and plotting scripts in Julia
 
 Observations and reanalysis data:
