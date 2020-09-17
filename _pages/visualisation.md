@@ -8,7 +8,7 @@ author_profile: true
 ## CliMA-specific tools
 
 ### Julia and Python scripts and notebooks
-- [Bash scripts](slurm_bash_scripts.md):end to end run-analysis pipeline
+- [Bash scripts](_visualisation/slurm_bash_scripts.md):end to end run-analysis pipeline
 - [VizCLIMA](https://github.com/CliMA/VizCLIMA.jl)
 - [Plotly scripts](/_visualisation/plotly_scripts.md)
 - Remote access of notebooks
