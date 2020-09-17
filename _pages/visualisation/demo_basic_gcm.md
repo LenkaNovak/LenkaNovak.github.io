@@ -15,18 +15,18 @@ Say I want to run the GCM in the Held Suarez setup, using the GCMdriver (modular
   - `.../restart/` containing all restart `.jld2` files from individual nodes
   - `.../log/` containing `model_log_err.out` logfile
   - `.../analysis` with:
-    - `general-gcm-notebook-setup.jl` copied from VizCLIMA [click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.jl)
-    - `zontal_mean.pdf`
-    - `vertical_slice.pdf`
-    - `general-gcm-notebook-setup.ipynb` Juputer Notebook automatically generated from `general-gcm-notebook-setup.jl` ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.ipynb))
+      - `general-gcm-notebook-setup.jl` copied from VizCLIMA [click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.jl)
+      - `zontal_mean.pdf`
+      - `vertical_slice.pdf`
+      - `general-gcm-notebook-setup.ipynb` Juputer Notebook automatically generated from `general-gcm-notebook-setup.jl` ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.ipynb))
 
 4. View your notebook on a local machine
   - On both local and remote machines:
-    - ensure JupyterLab is installed on both local and remote machines (check version of Julia and necessary packages for your notebook)
+      - ensure JupyterLab is installed on both local and remote machines (check version of Julia and necessary packages for your notebook)
   - Remote host:
-    - `cd` into your output directory
-    - ```jupyter notebook --no-browser --port=XXXX```
+      - `cd` into your output directory
+      - ```jupyter notebook --no-browser --port=XXXX```
   - Local host:
-    - ```ssh -N -f -L YYYY:localhost:XXXX <remoteuser>@<remote-cluster-node>```
-    - In your local browser type ```localhost:YYYY```
-    - You may get a prompt to authenticate using a token (printed when launched the notebook on the remote host), then you're good to go!
+      - ```ssh -N -f -L YYYY:localhost:XXXX <remoteuser>@<remote-cluster-node>```
+      - In your local browser type ```localhost:YYYY```
+      - You may get a prompt to authenticate using a token (printed when launched the notebook on the remote host), then you're good to go!
