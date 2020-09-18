@@ -30,7 +30,7 @@ NB: these demos are based on the ClimateMachine.jl v0.2 release.
 - GCM
     - basic averaging and slicing([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup.jl), [.ipynb](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.ipynb))
     - differences between experiments ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup-multi.jl), [.ipynb](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup-multi.ipynb))
-    - 1d, 2d spectra
+    - 1d, 2d spectra ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/gcm-energy-spectra.jl), [.ipynb](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/gcm-energy-spectra.ipynb)
     - animations ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/hier_analysis_bcwave.jl#L97-L133))
     - functions atlas
 - LES
