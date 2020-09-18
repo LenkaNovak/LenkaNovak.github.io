@@ -24,7 +24,7 @@ NB: these demos are based on the ClimateMachine.jl v0.2 release.
 
 [VizCLIMA](https://github.com/CliMA/VizCLIMA.jl/tree/ln/prep-for-merge) contains Julia-based scripts for analysis of output from the `ClimateMachine.jl`. It can be used as part of the end-to-end pipeline as shown above, or for stand alone analysis of output. Here are some examples:
 - General
-    - file load & info print ([.jl]](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/gcm-energy-spectra.jl#L37-L41))
+    - file load & info print ([.jl](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/gcm-energy-spectra.jl#L37-L41))
     - file splitting
     - performance info table ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/bmark_sweep_targetted_vars_raw.jl#L184-L209))
 - GCM
@@ -32,7 +32,7 @@ NB: these demos are based on the ClimateMachine.jl v0.2 release.
     - differences between experiments ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup-multi.jl), [.ipynb](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup-multi.ipynb))
     - 1d, 2d spectra ([.jl](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/gcm-energy-spectra.jl), [.ipynb](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/spectra_testdel.ipynb))
     - animations ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/hier_analysis_bcwave.jl#L97-L133))
-    - functions atlas
+
 - LES
     - vertical profiles ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/default_moist_les.jl))
     - 3d energy spectrum ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/taylorgreen_spectrum.jl))
