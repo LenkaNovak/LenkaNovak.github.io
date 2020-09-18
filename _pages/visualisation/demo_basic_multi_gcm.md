@@ -6,16 +6,6 @@ collection: visualisation
 
 Using the `heldsuarez.jl` driver, this demo shows how to run multiple experiments and plot their differences using one bash script.
 
-
-
-
-https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup-multi.jl
-
-
-
-
-Say I want to run the GCM in the Held Suarez setup, using the GCMdriver (modularised driver which let you easily mix and match initial and boundary conditions, and sources).
-
 1. Download [ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl) and [VizCLIMA](https://github.com/CliMA/VizCLIMA.jl). For this demo use [this](https://github.com/CliMA/VizCLIMA.jl/tree/ln/prep-for-merge) VizCLIMA branch.
 
 2. Setup the pipeline bash script in the `ClimateMachine.jl` directory as shown [here](), and change the highlighted lines.
