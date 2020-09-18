@@ -21,7 +21,8 @@ These are examples of useful scripts for visualising output from `ClimateMachine
 NB: these demos are based on the ClimateMachine.jl v0.2 release.
 
 ## VizCLIMA
-### Scripts (for stand alone analysis of NetCDF files)
+
+[VizCLIMA](https://github.com/CliMA/VizCLIMA.jl/tree/ln/prep-for-merge) contains Julia-based scripts for analysis of output from the `ClimateMachine.jl`. It can be used as part of the end-to-end pipeline as shown above, or for stand alone analysis of output. Here are some examples:
 - General
     - file load + info
     - file splitting
