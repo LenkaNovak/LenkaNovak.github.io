@@ -20,7 +20,7 @@ Say I want to run the GCM in the Held Suarez setup, using the GCMdriver (modular
     - `general-gcm-notebook-setup.jl` copied from VizCLIMA ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.jl))
     - `zonal_mean.pdf`
     - `vertical_slice.pdf`
-    - `general-gcm-notebook-setup.ipynb` Juputer Notebook automatically generated from `general-gcm-notebook-setup.jl` ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.ipynb))
+    - `general-gcm-notebook-setup.ipynb` Juputer Notebook whih is automatically generated ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.ipynb))
 
 5. View your notebook on a local machine
 - On both local and remote machines:
