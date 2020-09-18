@@ -25,16 +25,16 @@ NB: these demos are based on the ClimateMachine.jl v0.2 release.
 - General
     - file load + info
     - file splitting
-    - [performance info table](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/bmark_sweep_targetted_vars_raw.jl#L184-L209)
+    - performance info table ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/bmark_sweep_targetted_vars_raw.jl#L184-L209))
 - GCM
-    - [basic averaging and slicing](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup.jl)
-    - [differences between experiments](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup-multi.jl)
+    - basic averaging and slicing([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup.jl), [.ipynb](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.ipynb))
+    - differences between experiments ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup-multi.jl), [.ipynb](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup-multi.ipynb))
     - 1d, 2d spectra
-    - [animations](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/hier_analysis_bcwave.jl#L97-L133)
+    - animations ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/hier_analysis_bcwave.jl#L97-L133))
     - functions atlas
 - LES
-    - [vertical profiles](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/default_moist_les.jl)
-    - [3d energy spectrum](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/taylorgreen_spectrum.jl)
+    - vertical profiles ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/default_moist_les.jl))
+    - 3d energy spectrum ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/taylorgreen_spectrum.jl))
 
 To apply a Julia script on ClimateMachine.jl output, and convert it into a Jupyter Notebook using Literate, run:
 
