@@ -11,7 +11,7 @@ author_profile: true
 - [Bash scripts](visualisation/slurm_bash_scripts.md): end to end run-analysis pipeline
 - [VizCLIMA](https://github.com/CliMA/VizCLIMA.jl)
 - [Plotly scripts](plotly.md)
-- Remote access of notebooks
+- [Remote access of notebooks](https://github.com/CliMA/ClimateMachine.jl/wiki/Visualization)
 
 ### DataViz project
 As part of [DataViz](http://datavis.caltech.edu), Caltech has partnered with JPL and the ArtCenter College of Design to bring together software engineers and artists to build an interactive data viualisation tool, consulted by and build exclusively for CliMA's scientists and developers ([code](https://drive.google.com/file/d/1xFlVKunny2ZIgg_xFn7vgIWZko151zwG/view?usp=sharing), please contact me or a CliMA member for access).
