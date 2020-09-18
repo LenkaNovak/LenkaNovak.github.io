@@ -9,6 +9,7 @@ These are examples of useful scripts for visualising output from `ClimateMachine
 ## VizCLIMA
 ### Scripts (for stand alone analysis of NetCDF files)
 
+test
     - General
         - file load + info
         - file splitting
