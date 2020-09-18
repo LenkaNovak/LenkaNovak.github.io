@@ -4,7 +4,8 @@ excerpt: "for developers and students working on Caltech's HPC cluster"
 collection: visualisation
 ---
 
-#### This builds on the [Basic GCM pipeline page](https://lenkanovak.github.io/_pages/visualisation/demo_basic_gcm/), and shows how to:
+This builds on the [Basic GCM pipeline page](https://lenkanovak.github.io/_pages/visualisation/demo_basic_gcm/), and shows how to:
+
     - output last *model* timestep in CPU
     - print the location of crash (e.g., [here](https://github.com/CliMA/ClimateMachine.jl/blob/ln/demo-debug/src/Atmos/Model/moisture.jl#L165-L171))
 
