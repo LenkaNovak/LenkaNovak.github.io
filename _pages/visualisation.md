@@ -9,7 +9,7 @@ author_profile: true
 
 ### Julia and Python scripts and notebooks
 - [Bash scripts](visualisation/slurm_bash_scripts.md): end to end run-analysis pipeline
-- [VizCLIMA](https://lenkanovak.github.io/_pages/visualisation/slurm_bash_scripts##-VizCLIMA)
+- [VizCLIMA](https://lenkanovak.github.io/_pages/visualisation/slurm_bash_scripts/##-VizCLIMA)
 - [Plotly scripts](plotly.md)
 - [Remote access of notebooks](https://github.com/CliMA/ClimateMachine.jl/wiki/Visualization)
 
