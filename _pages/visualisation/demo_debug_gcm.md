@@ -6,8 +6,8 @@ collection: visualisation
 
 This builds on the [Basic GCM pipeline page](https://lenkanovak.github.io/_pages/visualisation/demo_basic_gcm/), and shows how to:
 
-    - output last *model* timestep in CPU
-    - print the location of crash (e.g., [here](https://github.com/CliMA/ClimateMachine.jl/blob/ln/demo-debug/src/Atmos/Model/moisture.jl#L165-L171))
+    * output last *model* timestep in CPU
+    * print the location of crash (e.g., [here](https://github.com/CliMA/ClimateMachine.jl/blob/ln/demo-debug/src/Atmos/Model/moisture.jl#L165-L171))
 
 #### This is an interim solution and the working branch. It uses the Held Suarez setup, using the GCMdriver (modularised driver which let you easily mix and match initial and boundary conditions, and sources).
     - The model is initially run with 128 nodes, crashes after 17 days
