@@ -4,7 +4,6 @@ excerpt: "for developers and students working on Caltech's HPC cluster"
 collection: visualisation
 ---
 
-
 These are examples of useful scripts for visualising output from `ClimateMachine.jl`
 
 ## End-to-end modelling

@@ -18,9 +18,6 @@ How it works:
 - the script then reruns the  model from the restart file on one node, which allows the diagnostics to be applied coherently
 - using a `try ... catch` statement, the last model timestep at crash is saved in the same format as the standard diagnostic output
 
-
-
-
 Note that these files also had to be modified, as well as the pipeline script, to be able to save the last timestep
 - `src/Diagnostics/atmos_gcm_default.jl`
 - `src/Driver/Driver.jl`

@@ -1,5 +1,5 @@
 ---
-title: "Basic GCM Output"
+title: "Basic GCM Output for Multiple Experiments"
 excerpt: "for developers and students working on Caltech's HPC cluster"
 collection: visualisation
 ---
@@ -11,13 +11,11 @@ Using the `heldsuarez.jl` driver, this demo shows how to run multiple experiment
 2. Setup the pipeline bash script in the `ClimateMachine.jl` directory as shown [here](), and change the highlighted lines.
 
 3. Setup the `exp_parameters` file. This is a list of `par1 val1 par2 val2 ...` , where each line represents one model run. Note that parameter names must include all characters before the `=` sign, and values all of the characters after the `=` sign, as is in the experiment run file. For example, this script will modify the ```/experiments/AtmosGCM/heldsuarez.jl``` file and initiate three experiments of ΔT_y=(30K,60K,90K), each running for 0.5 days:
-
 ```
 ΔT_y FT(60) n_days::FT 0.5
 ΔT_y FT(30) n_days::FT 0.5
 ΔT_y FT(90) n_days::FT 0.5
 ```
-
 4. Copy the `helper_mod.sh` which contains functions for the automated parameter swapping.
 
 5. Run script using `sbatch pipeline_logging_basic_multi_gcmd.sh`
