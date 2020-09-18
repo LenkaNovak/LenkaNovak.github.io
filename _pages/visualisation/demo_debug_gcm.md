@@ -22,7 +22,7 @@ How it works:
 Note that these files also had to be modified, as well as the pipeline script, to be able to save the last timestep
 - `src/Diagnostics/atmos_gcm_default.jl`
 - `src/Driver/Driver.jl`
-- `assemble_checkpoints.jl` based on [this script]()
+- `assemble_checkpoints.jl` based on [this script](https://github.com/CliMA/ClimateMachine.jl/wiki/Assemble-checkpoints)
 - (`helper.sh`, `exp_parameter` can be removed if also removed from the pipeline script)
 
 1. Run script on *CPU* using `sbatch pipeline_logging_gcmd_precrash.sh`
