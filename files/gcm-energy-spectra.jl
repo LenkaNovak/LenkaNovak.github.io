@@ -52,23 +52,25 @@ nvar = size(var_name_list)[1]
 
 # exptract data and calculate anomalise from ctrl (assumes to be fnames[1] here)
 plot_array = Any[];
+ylabel_list=("latitide (deg N)","n")
 for n in 1:nvar
     title_v = var_name_list[n]
     m_mt, lat_n, z,  vs_ctrl = get_time_mean_spectra( "$CLIMA_NETCDF/"fnames[1], var_name_list[n], t_spinup, nan_fill_value)
     xdim = m_mt[n]
     ydim = lat_n[n]
     clims = get_min_max(vs_ctrl)
+    ylabel = ylabel_list[n]
     for i in 1:nexp
         if i ==1
             title = title_v*" ctrl"
-            one_plot = contourf( xdim, ydim, (vs_ctrl[:,:,height_index,1])', title = title, ylabel="latitide (deg N)", xlabel="m", clims = clims);
+            one_plot = contourf( xdim, ydim, (vs_ctrl[:,:,height_index,1])', title = title, ylabel=ylabel, xlabel="m", clims = clims);
         else
             title = title_v*" ex$i-ctrl"
             m_mt, lat_n, z, vs  = get_time_mean_spectra( "$CLIMA_NETCDF/"fnames[i], var_name_list[n], t_spinup, nan_fill_value);
             if i ==2
                 clims =get_min_max(vs-vs_ctrl)
             end
-            one_plot = contourf( xdim, ydim, ((vs-vs_ctrl)[:,:,height_index,1])', title = title, ylabel="n", xlabel="m", clims = clims);
+            one_plot = contourf( xdim, ydim, ((vs-vs_ctrl)[:,:,height_index,1])', title = title, ylabel=ylabel, xlabel="m", clims = clims);
         end
         push!(plot_array,one_plot); # make a plot and add it to the plot_array
     end
