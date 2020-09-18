@@ -34,13 +34,14 @@ Say I want to run the GCM in the Held Suarez setup, using the GCMdriver (modular
 
 6. Your specified output folder should contain
 - `.../netcdf/` containing the diagnostics output `.nc` file
-- `.../restart/` containing all restart `.jld2` files from individual nodes
-- `.../log/` containing `model_log_err.out` logfile
+- `.../restart/` containing all restart `.jld2` files from individual nodes, for each experiment
+- `.../log/` with:
+    - `model_log_err.out` logfile
+    - the three drivers for each experiment
 - `.../analysis` with:
-    - `general-gcm-notebook-setup.jl` copied from VizCLIMA ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.jl))
-    - `zonal_mean.pdf`
-    - `vertical_slice.pdf`
-    - `general-gcm-notebook-setup.ipynb` Juputer Notebook whih is automatically generated ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup.ipynb))
+    - `general-gcm-notebook-setup-multi.jl` copied from VizCLIMA ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup-multi.jl))
+    - `plot_zonal_mean_anom.pdf`
+    - `general-gcm-notebook-setup-multi.ipynb` Juputer Notebook whih is automatically generated ([click here for demo](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/general-gcm-notebook-setup-multi.ipynb))
 
 7. View your notebook on a local machine
 - On both local and remote machines:

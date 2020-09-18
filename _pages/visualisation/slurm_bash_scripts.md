@@ -11,15 +11,28 @@ These are examples of useful scripts for visualising output from `ClimateMachine
 - General
     - file load + info
     - file splitting
-    - performance info table
+    - [performance info table](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/bmark_sweep_targetted_vars_raw.jl#L184-L209)
 - GCM
-    - basic zonal mean / slice output (debugging )
+    - [basic averaging and slicing](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup.jl)
+    - [differences between experiments](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/general-gcm-notebook-setup-multi.jl)
     - 1d, 2d spectra
-    - animations
+    - (animations)[https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/hier_analysis_bcwave.jl#L97-L133]
     - functions atlas
 - LES
-    - vertical profiles
-    - spectra
+    - [vertical profiles](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/default_moist_les.jl)
+    - [3d energy spectrum](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/taylorgreen_spectrum.jl)
+
+To apply a Julia script on ClimateMachine.jl output, and convert it into a Jupyter Notebook using Literate, run:
+
+```
+VIZCLIMA_HOME=<location-of-your-VizCLIMA.jl>
+VIZCLIMA_SCRIPT=<your-VizCLIMA.jl-script>
+CLIMA_ANALYSIS=<location-of-your-NetCDF-file(s)>
+
+julia --project=$VIZCLIMA_HOME -e 'using Pkg; Pkg.instantiate(); Pkg.API.precompile()'
+VIZCLIMA_LITERATE=$VIZCLIMA_HOME'/src/utils/make_literate.jl'
+julia --project=$VIZCLIMA_HOME $VIZCLIMA_LITERATE --input-file $CLIMA_ANALYSIS/$VIZCLIMA_SCRIPT --output-dir $CLIMA_ANALYSIS
+```
 
 ### Gallery (use the scripts above)
 
@@ -32,8 +45,8 @@ These are examples of useful scripts for visualising output from `ClimateMachine
 ### Demos
 
 - [Basic GCM: run and plot](https://lenkanovak.github.io/_pages/visualisation/demo_basic_gcm/)
-- [Plot the last timestep before crashing](https://lenkanovak.github.io/_pages/visualisation/demo_debug_gcm/)
-- sensitivity experiments
+- [Output and plot the last timestep before crashing](https://lenkanovak.github.io/_pages/visualisation/demo_debug_gcm/)
+- [Run multiple experiments and plot their differences](https://lenkanovak.github.io/_pages/visualisation/demo_basic_multi_gcm/)
 
 NB: these demos are based on the ClimateMachine.jl v0.2 release.
 
