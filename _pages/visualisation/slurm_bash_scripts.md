@@ -28,9 +28,13 @@ These are examples of useful scripts for visualising output from `ClimateMachine
 - [Run LES experiment and plot some output](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts)
 - [Set up multi-experiment GCM runs with performance info tracking on GPU](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts#step-by-step)
 
+#	renamed:    pipeline_logging_gcmd.sh -> pipeline_logging_gcmd_precrash.sh
+#	modified:   src/Diagnostics/atmos_gcm_default.jl
+#	modified:   src/Driver/Driver.jl
+
 ### Demos
 - [Basic GCM: run and plot](https://lenkanovak.github.io/_pages/visualisation/demo_basic_gcm/)
-- plot the last timestep before crashing
+- [Plot the last timestep before crashing](https://lenkanovak.github.io/_pages/visualisation/demo_debug_gcm/)
 - sensitivity experiments
 NB: these demos are based on the ClimateMachine.jl v0.2 release.
 
