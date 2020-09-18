@@ -24,7 +24,7 @@ NB: these demos are based on the ClimateMachine.jl v0.2 release.
 
 [VizCLIMA](https://github.com/CliMA/VizCLIMA.jl/tree/ln/prep-for-merge) contains Julia-based scripts for analysis of output from the `ClimateMachine.jl`. It can be used as part of the end-to-end pipeline as shown above, or for stand alone analysis of output. Here are some examples:
 - General
-    - file load + info
+    - file load & info print ([.jl]](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/files/gcm-energy-spectra.jl#L37-L41))
     - file splitting
     - performance info table ([.jl](https://github.com/CliMA/VizCLIMA.jl/blob/ln/prep-for-merge/src/scripts/bmark_sweep_targetted_vars_raw.jl#L184-L209))
 - GCM
