@@ -21,4 +21,4 @@ As part of [DataViz](http://datavis.caltech.edu), Caltech has partnered with JPL
   - [ParaView](https://www.paraview.org): 3d visualisation, slicing and simple data manipulation, handles VTK files and can convert data to CSV and other formats.
   - [VisIt](https://visitusers.org/index.php?title=Main_Page): similar to ParaView
   - [Panoply](https://www.giss.nasa.gov/tools/panoply/): summarises geospatial information of the global geospatial data
-  - [Ncview](http://meteora.ucsd.edu/~pierce/ncview_home_page.html): useful for quick check of data on the Caltech cluster.
+  - [Ncview](http://meteora.ucsd.edu/~pierce/ncview_home_page.html): useful for a quick check of geospatial data on the Caltech cluster. It can handle large data files more easily than most other packages. 
