@@ -10,7 +10,7 @@ using DataStructures
 # Setup run-time enviromnent
 ENV["GKSwstype"] = "100"
 
-#Find required files and print their info
+# Find required files and print their info
 CLIMA_NETCDF = "../netcdf/"; #location of .nc files
 fnames = filter(x -> occursin("Spectra", x), readdir( CLIMA_NETCDF ) );
 ds = NCDataset("$CLIMA_NETCDF/"fnames[1], "r")
@@ -40,7 +40,7 @@ new_vars = OrderedDict("spectrum_1d" => (spectrum_1d[:,:,level_ind,new_time_ind]
 # Open the new file
 dss = Dataset(new_filename, "c") 
 
-# set dims and save them as vars
+# Set dims and save them as vars
 for (dn, (dv, da)) in new_dims
     defDim(dss, dn, length(dv))
 end
