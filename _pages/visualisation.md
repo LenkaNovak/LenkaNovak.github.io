@@ -23,4 +23,4 @@ As part of [DataVis](http://datavis.caltech.edu), Caltech has partnered with JPL
   - [Panoply](https://www.giss.nasa.gov/tools/panoply/): summarises geospatial information of the global geospatial data
   - [Ncview](http://meteora.ucsd.edu/~pierce/ncview_home_page.html): useful for a quick check of geospatial data on the Caltech cluster. It can handle large data files more easily than most other packages.
 
-![alt text](images/animated_smoke_3_b.gif "Title")
+![alt text](animated_smoke_3_b.gif "Title")
