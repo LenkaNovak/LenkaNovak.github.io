@@ -5,7 +5,6 @@ using Plots
 using NCDatasets
 using Statistics: mean
 using DataStructures
-#import Pkg; Pkg.add("DataStructures")
 
 # Setup run-time enviromnent
 ENV["GKSwstype"] = "100"
@@ -49,7 +48,7 @@ for (dn, (dv, da)) in new_dims
     defVar(dss, dn, dv, (dn,), attrib = da)
 end
 
-# save physical variables
+# Save physical variables
 for (vn, (vv, vd, va)) in new_vars
     println(vd)
     defVar(dss, vn, vv, vd, attrib = va)
