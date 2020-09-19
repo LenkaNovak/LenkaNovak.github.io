@@ -16,8 +16,6 @@ author_profile: true
 ### DataVis project
 As part of [DataVis](http://datavis.caltech.edu), Caltech has partnered with JPL and the ArtCenter College of Design to bring together software engineers and artists to build an interactive data visualisation tool, consulted by and build exclusively for CliMA's scientists and developers ([code](https://drive.google.com/file/d/1xFlVKunny2ZIgg_xFn7vgIWZko151zwG/view?usp=sharing), please contact me or a CliMA member for access).
 
-![alt text](https://lenkanovak.github.io/images/animated.gif "Dry Held-Suarez Spinup")
-
 ## Third party interactive software packages
 - There are various third party packages that enable instant 3D interactive visualisation, slicing and animations of our data (NetCDF format by default), as well as conversion to other data formats. Examples include:
   - [ParaView](https://www.paraview.org): 3d visualisation, slicing and simple data manipulation, handles VTK files and can convert data to CSV and other formats.
@@ -25,4 +23,8 @@ As part of [DataVis](http://datavis.caltech.edu), Caltech has partnered with JPL
   - [Panoply](https://www.giss.nasa.gov/tools/panoply/): summarises geospatial information of the global geospatial data
   - [Ncview](http://meteora.ucsd.edu/~pierce/ncview_home_page.html): useful for a quick check of geospatial data on the Caltech cluster. It can handle large data files more easily than most other packages.
 
-![alt text](https://lenkanovak.github.io/images/animated_smoke_3_b.gif "Dry Held-Suarez Spinup")
+### Examples from ParaView: Dry Held-Suarez Spinup using ClimateMachine.jlv0.1
+
+![alt text](https://lenkanovak.github.io/images/animated.gif "temperature cross-section with atmosphere thickness blown up")
+
+![alt text](https://lenkanovak.github.io/images/animated_smoke_3_b.gif "temperature and wind")
