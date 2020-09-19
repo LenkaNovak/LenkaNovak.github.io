@@ -23,7 +23,7 @@ As part of [DataVis](http://datavis.caltech.edu), Caltech has partnered with JPL
   - [Panoply](https://www.giss.nasa.gov/tools/panoply/): summarises geospatial information of the global geospatial data
   - [Ncview](http://meteora.ucsd.edu/~pierce/ncview_home_page.html): useful for a quick check of geospatial data on the Caltech cluster. It can handle large data files more easily than most other packages.
 
-### Examples from ParaView: Dry Held-Suarez Spinup using ClimateMachine.jlv0.1
+### Examples from ParaView: Dry Held-Suarez Spinup using ClimateMachine.jl (v0.1.0)
 
 ![alt text](https://lenkanovak.github.io/images/animated.gif "temperature cross-section with atmosphere thickness blown up")
 
