@@ -26,7 +26,7 @@ img {width: 150%; height: auto;}
 </head>
 
 <body>
-<table width="700px" height="100%" bordercolor="white">
+<table width="500px" height="100%" bordercolor="white">
 
 <tr>
 
