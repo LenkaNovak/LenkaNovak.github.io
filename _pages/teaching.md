@@ -8,10 +8,12 @@ author_profile: true
 Model code:
 
 - [CliMA's ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl)
+- [Caltech FMS version](https://drive.google.com/file/d/1-kmkBj8T8maQnzhZufv_UDHklgCml1my/view?usp=sharing)
 - [ECMWF's Open IFS](https://www.ecmwf.int/en/research/projects/openifs)
 - [ICTP's SPEEDY](https://www.ictp.it/research/esp/models/speedy.aspx)
 - [Hamburg's PlaSim and PUMA](https://www.mi.uni-hamburg.de/en/arbeitsgruppen/theoretische-meteorologie/modelle/plasim.html)
 - [GFDL's Idealized Spectral Model](https://www.gfdl.noaa.gov/idealized-spectral-models-quickstart/)
+
 
 Analysis code:
 - [DynamicsToolbox](https://github.com/LenkaNovak/Teaching_tools): scripts for analysing large-scale circulation features and statistics (still under development - please contact me for access)
