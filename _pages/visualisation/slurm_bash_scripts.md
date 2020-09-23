@@ -54,6 +54,9 @@ julia --project=$VIZCLIMA_HOME $VIZCLIMA_LITERATE --input-file $CLIMA_ANALYSIS/$
 
 ## References:
 
-- [setup jupyter notebook environment](https://github.com/CliMA/ClimateMachine.jl/wiki/Visualization)
-- [end-to-end bash scripts](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts)
-- [setup SLURM environment on Caltech's HPC and run ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl/wiki/Caltech-Central-Cluster) (updated with each release): choose to run on CPU or GPU
+-
+- CliMA Wiki:
+    - [end-to-end bash scripts](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts)
+    - [Setup JupyterLab on Caltech Cluster](https://github.com/CliMA/ClimateMachine.jl/wiki/Visualization)
+    - [setup SLURM environment on Caltech's Cluster and run ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl/wiki/Caltech-Central-Cluster) (updated with each release): choose to run on CPU or GPU
+- [initial GCM physics testing](https://lenkanovak.github.io/_pages/random/gcm_tests/)
