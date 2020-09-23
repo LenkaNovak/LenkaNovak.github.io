@@ -34,7 +34,7 @@ tr {
   </td>
 
   <td>
-  <img {width: 100%; height: auto;} src="images/moist_planet_white.gif" alt="description here" />
+  <img {width: 150%; height: auto;} src="images/moist_planet_white.gif" alt="description here" />
   </td>
 
 </tr>
