@@ -26,7 +26,7 @@ img {width: 300%; height: auto;}
 </head>
 
 <body>
-<table width="500px" height="100%" bordercolor="white">
+<table width="700px" height="100%" bordercolor="white">
 
 <tr>
 
@@ -46,7 +46,7 @@ img {width: 300%; height: auto;}
 
 <h2>Climate Modelling Alliance (CliMA)</h2>
 
-<table width="500px" height="100%" bordercolor="white">
+<table width="700px" height="100%" bordercolor="white">
 
 <tr>
 
