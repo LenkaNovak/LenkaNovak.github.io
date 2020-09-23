@@ -12,10 +12,9 @@ redirect_from:
 
 <div style="clear: both;">
   <div style="float: left; margin-right 1em;">
-    <img src="images/moist_planet_white.gif" alt="">
+    <img src="images/moist_planet_white.gif" class="img-right" alt="">
   </div>
   <div>
-    <h2>Some title text</h2>
     <p>My work focuses on mid-latitude storm tracks and their interaction with the associated eddy-driven jet streams. I use idealised simulations of the global atmosphere combined with observations, in order to develop theoretical understanding for extreme weather under the current, past and future climates.</p>
   </div>
 </div>
