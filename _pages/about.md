@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-
-
 <div style="clear: both;">
   <div>
     <p> My work focuses on mid-latitude storm tracks and their interaction with the associated eddy-driven jet streams. I use idealised simulations of the global atmosphere combined with observations, in order to develop theoretical understanding for extreme weather under the current, past and future climates. </p>
