@@ -19,6 +19,9 @@ td {
 tr {
   border-color: white;
 }
+
+img {width: 150%; height: auto;}
+
 </style>
 </head>
 
@@ -34,7 +37,7 @@ tr {
   </td>
 
   <td>
-  <img {width: 150%; height: auto;} src="images/moist_planet_white.gif" alt="description here" />
+  <img src="images/moist_planet_white.gif" alt="description here" />
   </td>
 
 </tr>
