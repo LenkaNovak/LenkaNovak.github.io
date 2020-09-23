@@ -17,7 +17,7 @@ As a member of the Caltech CliMA team, I am involved in verification of [Climate
 
 <p>
 <img align="right" src="images/moist_planet_white.gif">
-<\p>
+</p>
 
 
 ![Baby ClimateMachine with moisture](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/images/moist_planet_white.gif)
