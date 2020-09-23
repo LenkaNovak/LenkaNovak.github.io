@@ -30,3 +30,6 @@ As part of [DataVis](http://datavis.caltech.edu), Caltech has partnered with JPL
 ![alt text](https://lenkanovak.github.io/images/animated_smoke_3_b.gif "temperature and wind")
 
 ![alt text](https://lenkanovak.github.io/images/hairy.gif "snapshot of zonal wind: clip and streamlines")
+
+### Example from Houdini: Cumulus cloud simulating the BOMEX case using ClimateMachine.jl (v0.1.0)
+![alt text](https://lenkanovak.github.io/images/houdini.mp4 "BOMEX simulation: animation by Vince Baertsoen and data from Akshay Sridhar")
