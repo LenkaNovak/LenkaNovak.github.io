@@ -43,8 +43,17 @@ tr {
 
 <h2>Climate Modelling Alliance (CliMA)</h2>
 
-<p>
-As a member of the Caltech CliMA team, I am involved in verification of <a href="https://github.com/CliMA/ClimateMachine.jl">ClimateMachine.jl</a>, a comprehensive state-of-the-art earth system driven by machine learning that CliMA is currently developing.
-</p>
+<table width="500px" height="100%" bordercolor="white">
+
+<tr>
+
+  <td>
+    <p>
+      As a member of the Caltech CliMA team, I am involved in verification of <a href="https://github.com/CliMA/ClimateMachine.jl">ClimateMachine.jl</a>, a comprehensive state-of-the-art earth system driven by machine learning that CliMA is currently developing.
+    </p>
+  </td>
+
+</tr>
+</table>
 
 </body>
