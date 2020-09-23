@@ -37,7 +37,7 @@ img {width: 150%; height: auto;}
   </td>
 
   <td>
-  <img src="images/moist_planet_white.gif" alt="description here" />
+  <img title="tropospheric humidity overlaid on surface temperature" src="images/moist_planet_white.gif" alt="Baby ClimateMachine with moisture: Held Suarez setup, days 100-150" />
   </td>
 
 </tr>
