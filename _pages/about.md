@@ -23,7 +23,7 @@ tr {
 </head>
 
 <body>
-<table width="600px" height="100%" bordercolor="white">
+<table width="700px" height="100%" bordercolor="white">
 
 <tr>
 
