@@ -28,3 +28,5 @@ As part of [DataVis](http://datavis.caltech.edu), Caltech has partnered with JPL
 ![alt text](https://lenkanovak.github.io/images/animated.gif "temperature cross-section with atmosphere thickness blown up")
 
 ![alt text](https://lenkanovak.github.io/images/animated_smoke_3_b.gif "temperature and wind")
+
+![alt text](https://lenkanovak.github.io/images/hairy.gif "snapshot of zonal wind: clip and streamlines")
