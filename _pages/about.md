@@ -22,6 +22,7 @@ tr {
 </style>
 </head>
 
+<body>
 <table width="500px" height="100%" bordercolor="white">
 
 <tr>
@@ -38,7 +39,7 @@ tr {
 
 </tr>
 </table>
-
+</body>
 
 ## Climate Modelling Alliance (CliMA)
 
