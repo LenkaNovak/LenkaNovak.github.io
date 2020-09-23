@@ -20,8 +20,6 @@ tr {
   border-color: white;
 }
 
-img {width: 150%; height: auto;}
-
 </style>
 </head>
 
