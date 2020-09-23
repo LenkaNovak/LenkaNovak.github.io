@@ -22,6 +22,7 @@ As part of [DataVis](http://datavis.caltech.edu), Caltech has partnered with JPL
   - [VisIt](https://visitusers.org/index.php?title=Main_Page): similar to ParaView
   - [Panoply](https://www.giss.nasa.gov/tools/panoply/): summarises geospatial information of the global geospatial data
   - [Ncview](http://meteora.ucsd.edu/~pierce/ncview_home_page.html): useful for a quick check of geospatial data on the Caltech cluster. It can handle large data files more easily than most other packages.
+  - [Houdini](https://www.sidefx.com/products/houdini/): useful for more sophisticated representation of 3D turbulence and powerful data interpolation. Used by our Hollywood colleagues for CGI.
 
 ### Examples from ParaView: Dry Held-Suarez spinup using ClimateMachine.jl (v0.1.0)
 
@@ -32,4 +33,4 @@ As part of [DataVis](http://datavis.caltech.edu), Caltech has partnered with JPL
 ![alt text](https://lenkanovak.github.io/images/hairy.gif "snapshot of zonal wind: clip and streamlines")
 
 ### Example from Houdini: Cumulus cloud simulating the BOMEX case using ClimateMachine.jl (v0.1.0)
-![alt text](https://lenkanovak.github.io/images/houdini.mp4 "BOMEX simulation: animation by Vince Baertsoen and data from Akshay Sridhar")
+![alt text](https://lenkanovak.github.io/images/houdini.mp4 "BOMEX simulation: data from Akshay Sridhar")
