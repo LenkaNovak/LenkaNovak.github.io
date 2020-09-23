@@ -8,15 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div style="clear: both;">
-  <div>
-    <p> My work focuses on mid-latitude storm tracks and their interaction with the associated eddy-driven jet streams. I use idealised simulations of the global atmosphere combined with observations, in order to develop theoretical understanding for extreme weather under the current, past and future climates. </p>
-  </div>
-    <img src="images/moist_planet_white.gif" class="img-right" alt="">
-  </div>
-</div>
 
-<img src="images/moist_planet_white.gif" class="img-right" alt="">
 
 <table width="500px" height="100%" bordercolor="white">
 
