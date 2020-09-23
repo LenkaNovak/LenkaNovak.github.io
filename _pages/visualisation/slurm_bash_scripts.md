@@ -50,13 +50,13 @@ VIZCLIMA_LITERATE=$VIZCLIMA_HOME'/src/utils/make_literate.jl'
 julia --project=$VIZCLIMA_HOME $VIZCLIMA_LITERATE --input-file $CLIMA_ANALYSIS/$VIZCLIMA_SCRIPT --output-dir $CLIMA_ANALYSIS
 ```
 
-### Tips:
+### Tips
 - when analysing large data files, Jupyter Notebooks can be very slow, so the computation is recommended to be done using Julia scripts and on a compute node (e.g. `hpc-89-24`). For optimising your code in Julia see, for example, [this](https://www.youtube.com/watch?time_continue=4856&v=M2i7sSRcSIw&feature=emb_logo) tutorial.
 - use `ncview` for fast exploration of large GCM output when on Caltech Cluster
 
 ### Gallery (use the scripts above)
 
-## References:
+## References
 
 - CliMA Wiki:
     - [end-to-end bash scripts](https://github.com/CliMA/ClimateMachine.jl/wiki/Bash-Run-Scripts)
