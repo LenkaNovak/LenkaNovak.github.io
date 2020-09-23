@@ -36,7 +36,7 @@ img {width: 300%; height: auto;}
     </p>
   </td>
 
-  <td style="horizontal-align:center; height:150px; vertical-align: top;">
+  <td style="vertical-align: top; horizontal-align:center; height:150px;">
   <img title="tropospheric humidity overlaid on surface temperature" src="images/moist_planet_white.gif" alt="Baby ClimateMachine with moisture: Held Suarez setup, days 100-150" width="420" >
   </td>
 
