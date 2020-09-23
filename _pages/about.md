@@ -13,3 +13,11 @@ My work focuses on mid-latitude storm tracks and their interaction with the asso
 ## Climate Modelling Alliance (CliMA)
 
 As a member of the Caltech CliMA team, I am involved in verification of [ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl), a comprehensive state-of-the-art earth system driven by machine learning that CliMA is currently developing.
+
+
+<p>
+<img align="right" src="images/moist_planet_white.gif">
+<\p>
+
+
+![Baby ClimateMachine with moisture](https://github.com/LenkaNovak/LenkaNovak.github.io/blob/master/images/moist_planet_white.gif)
