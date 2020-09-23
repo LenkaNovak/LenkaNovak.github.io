@@ -20,11 +20,13 @@ tr {
   border-color: white;
 }
 
+img {width: 300%; height: auto;}
+
 </style>
 </head>
 
 <body>
-<table width="2000px" height="100%" bordercolor="white">
+<table width="500px" height="100%" bordercolor="white">
 
 <tr>
 
