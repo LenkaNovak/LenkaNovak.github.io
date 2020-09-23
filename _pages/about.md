@@ -18,7 +18,7 @@ redirect_from:
   </div>
 </div>
 
-
+<img src="images/moist_planet_white.gif" class="img-right" alt="">
 
 
 
