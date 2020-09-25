@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "Visualisation"
 permalink: /visualisation/
 author_profile: true
