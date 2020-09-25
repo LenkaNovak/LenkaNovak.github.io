@@ -1,4 +1,5 @@
 ---
+layout: talk
 title: "Teaching Resources"
 permalink: /teaching_resources/
 author_profile: true
