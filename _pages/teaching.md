@@ -3,6 +3,8 @@ layout: archive
 title: "Teaching Resources"
 permalink: /teaching_resources/
 author_profile: true
+
+image: /images/wood_narrow_1.png
 ---
 
 Model code:

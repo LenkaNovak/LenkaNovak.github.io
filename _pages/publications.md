@@ -3,6 +3,8 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+
+image: /images/wood_narrow_1.png
 ---
 
 - Novak, L., Schneider, T., Ait-Chaalal, F. (2020) [Midwinter suppression of storm tracks in an idealized zonally symmetric setting, *Journal of the Atmospheric Sciences*](https://journals.ametsoc.org/doi/full/10.1175/JAS-D-18-0353.1), **77**, 297-313.

@@ -3,6 +3,8 @@ layout: archive
 title: "Research Interests"
 permalink: /research_interests/
 author_profile: true
+
+image: /images/wood_narrow_1.png
 ---
 
 {% include base_path %}

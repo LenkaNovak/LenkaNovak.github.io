@@ -3,6 +3,8 @@ layout: archive
 title: "Visualisation"
 permalink: /visualisation/
 author_profile: true
+
+image: /images/wood_narrow_1.png
 ---
 
 ## CliMA-specific tools
