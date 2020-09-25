@@ -283,10 +283,12 @@ nav {
   ul {
     margin: 0;
     padding: 0;
+    background-image: url("paper.gif");
   }
 
   li {
     list-style: none;
+    background-image: url("paper.gif");
   }
 
   a {
@@ -303,6 +305,7 @@ nav {
   li ol {
     margin-top: 0;
   }
+
 }
 
 /*
