@@ -6,6 +6,8 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+
+image: /images/wood_narrow_1.png
 ---
 
 <head>
