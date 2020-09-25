@@ -1,11 +1,8 @@
 ---
-layout: default
+layout: single
 title: "Research Interests"
 permalink: /research_interests/
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 
 image: /images/wood_narrow_1.png
 
@@ -29,7 +26,8 @@ image: /images/wood_narrow_1.png
   }
   </style>
 </head>
-<body>
+
+
 
 <br>
 
@@ -127,8 +125,3 @@ Here is a selection of how I have used these tools so far:
   </td>
 
 </tr>
-</table>
-
-
-
-</body>
