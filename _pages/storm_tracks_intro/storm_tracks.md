@@ -1,4 +1,5 @@
 ---
+layout: splash
 title: "Storm Tracks and Jets"
 excerpt: "What are storm tracks and why study them?"
 collection: storm_tracks_intro
