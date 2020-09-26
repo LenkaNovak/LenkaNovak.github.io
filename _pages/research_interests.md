@@ -70,12 +70,6 @@ img {width: 300%; height: auto;}
 
        </tr>
 
-<tr>
 
-  <td>
-    <p>
-    <a href="storm_tracks_intro/storm_tracks.md">Here</a> is a selection of how I have used these tools so far.
-        </td>
-
-       </tr>
      </table>
+[Here ](storm_tracks_intro/storm_tracks.md) is a selection of how I have used these tools so far.
