@@ -2,6 +2,7 @@
 {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav class="nav__list">
+<div style="background-image: url('/images/wood_narrow_1.png');">
   {% if page.sidebar.title %}<header><h4 class="nav__title" style="padding: 0;">{{ page.sidebar.title }}</h4></header>{% endif %}
   <ul>
     {% for nav in navigation %}
@@ -43,4 +44,5 @@
       </li>
     {% endfor %}
   </ul>
+</div>
 </nav>
