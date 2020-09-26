@@ -39,10 +39,6 @@ img {width: 300%; height: auto;}
   </td>
 
 </tr>
-</table>
-
-
-<table width="700px" height="100%" bordercolor="white">
 
 <tr>
 
@@ -53,9 +49,6 @@ img {width: 300%; height: auto;}
    </td>
 
   </tr>
-</table>
-
-<table width="700px" height="100%" bordercolor="white">
 
 <tr>
 
@@ -66,9 +59,6 @@ img {width: 300%; height: auto;}
         </td>
 
        </tr>
-     </table>
-
-<table width="700px" height="100%" bordercolor="white">
 
 <tr>
 
@@ -79,16 +69,12 @@ img {width: 300%; height: auto;}
         </td>
 
        </tr>
-     </table>
-
-
-<table width="700px" height="100%" bordercolor="white">
 
 <tr>
 
   <td>
     <p>
-        [Here ](storm_tracks_intro/storm_tracks.md) is a selection of how I have used these tools so far.
+    <a href="storm_tracks_intro/storm_tracks.md">Here</a> is a selection of how I have used these tools so far.
         </td>
 
        </tr>
