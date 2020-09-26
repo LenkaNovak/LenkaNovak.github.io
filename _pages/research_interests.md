@@ -1,6 +1,7 @@
 ---
 title: "Research Interests"
 permalink: /research_interests/
+excerpt: "What are storm tracks and why study them?"
 author_profile: true
 
 image: /images/wood_narrow_1.png
