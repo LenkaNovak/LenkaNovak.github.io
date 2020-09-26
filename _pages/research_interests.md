@@ -34,7 +34,7 @@ img {width: 300%; height: auto;}
 
   <td>
     <p>
-      <h2> What, why, how? </h2>
+      <h2> What, why and how... </h2>
         Midlatitude weather is primarily controlled by large-scale turbulence, which determines <b> extreme weather </b> (weather bombs, extreme precipitation, gustiness, aircraft turbulence in upper atmosphere) and <b> long-term conditions </b> (heat waves, droughts). Understanding and good prediction of its behaviour can therefore save lives, avoid property damage, and mitigate loss to the agricultural, transport and energy industries.
     </p>
   </td>
