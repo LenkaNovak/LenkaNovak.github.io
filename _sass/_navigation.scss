@@ -328,6 +328,7 @@
     display: block;
     padding: 0.125em 0;
     color: inherit;
+    background-image: "/images/wood_narrow_1.png"
 
     &:hover {
       text-decoration: underline;
@@ -341,6 +342,7 @@
     color: #fff;
     font-weight: bold;
     background: $primary-color;
+    background-image: "/images/wood_narrow_1.png"
     border-radius: $border-radius;
 
     &:hover {
