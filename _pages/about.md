@@ -48,7 +48,7 @@ img {width: 250px; height: auto;}
 
 <tr>
 
-  <td style="width:300px;">
+  <td style="width:400px;">
     <p>
       As a member of the Caltech CliMA team, I am involved in the building and verification of <a href="https://github.com/CliMA/ClimateMachine.jl">ClimateMachine.jl</a>, a comprehensive state-of-the-art GPU-based earth system model, driven by machine learning that CliMA is currently developing.
     </p>
