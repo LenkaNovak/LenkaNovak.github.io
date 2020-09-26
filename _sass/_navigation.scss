@@ -175,13 +175,13 @@
 
 .greedy-nav {
   position: relative;
-  min-width: 300000px;
+  min-width: 500px;
   background: $background-color;
   background-image: url('/images/wood_narrow_1.png');
 
   a {
     display: block;
-    margin: 0 1rem;
+    margin: 0 0rem;
     padding: 0.5rem 0.5rem;
     color: #ffffff;
     text-decoration: none;
