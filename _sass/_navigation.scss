@@ -182,7 +182,7 @@
   a {
     display: block;
     margin: 0 1rem;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0.5rem;
     color: #ffffff;
     text-decoration: none;
 
@@ -198,7 +198,7 @@
     padding: 0.5 0.5rem;
     border: 0;
     outline: none;
-    background-color: $primary-color;
+    background-color: #000;
     background-image: url('/images/wood_narrow_1.png');
     color: #fff;
     cursor: pointer;
