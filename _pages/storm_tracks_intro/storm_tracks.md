@@ -69,7 +69,7 @@ collection: storm_tracks_intro
   </tr>
   <tr>
 
-    <td>
+    <td style="width:300px;">
     <img src="/images/NT16_local_energetics.png" alt="description here" />
     </td>
 
