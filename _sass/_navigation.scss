@@ -235,7 +235,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: mix(#fff, $primary-color, 50%);
+        background: mix(#000, $primary-color, 50%);
         background-image: url('/images/wood_narrow_1.png');
         width: 100%;
         -webkit-transition: $global-transition;
@@ -261,7 +261,7 @@
     padding: 5px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
-    background: #fff;
+    background: #000;
     box-shadow: 0 0 10px rgba(#000, 0.25);
 
     a {
