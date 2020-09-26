@@ -4,6 +4,22 @@ excerpt: "What are storm tracks and why study them?"
 collection: storm_tracks_intro
 ---
 
+<head>
+
+  <style>
+
+  table {
+    border-color: white;
+  }
+  td {
+    border-color: white;
+  }
+  tr {
+    border-color: white;
+  }
+  </style>
+</head>
+
   <table width="500px" height="100%" bordercolor="white">
 
   <tr>

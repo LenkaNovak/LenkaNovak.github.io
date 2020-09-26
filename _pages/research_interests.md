@@ -7,21 +7,6 @@ image: /images/wood_narrow_1.png
 
 ---
 
-<head>
-
-  <style>
-
-  table {
-    border-color: white;
-  }
-  td {
-    border-color: white;
-  }
-  tr {
-    border-color: white;
-  }
-  </style>
-</head>
 
 <h2> Midlatitude Weather and Climate </h2>
 <p>
