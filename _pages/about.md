@@ -22,7 +22,7 @@ tr {
   border-color: white;
 }
 
-img {width: 300%; height: auto;}
+img {width: 250px; height: auto;}
 
 </style>
 </head>
