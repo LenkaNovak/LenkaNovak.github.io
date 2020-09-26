@@ -20,7 +20,7 @@ collection: storm_tracks_intro
   </style>
 </head>
 
-  <table width="500px" height="100%" bordercolor="white">
+  <table width="600px" height="100%" bordercolor="white">
 
   <tr>
 
