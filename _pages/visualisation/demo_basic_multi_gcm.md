@@ -8,7 +8,7 @@ Using the `heldsuarez.jl` driver, this demo shows how to run multiple experiment
 
 1. Download [ClimateMachine.jl](https://github.com/CliMA/ClimateMachine.jl) and [VizCLIMA](https://github.com/CliMA/VizCLIMA.jl). For this demo use [this](https://github.com/CliMA/VizCLIMA.jl/tree/ln/prep-for-merge) VizCLIMA branch.
 
-2. Setup the pipeline bash script in the `ClimateMachine.jl` directory as shown [here](), and change the highlighted lines.
+2. Setup the pipeline bash script in the `ClimateMachine.jl` directory as shown [here](https://github.com/CliMA/ClimateMachine.jl/blob/ln/demo-v02-basic/pipeline_logging_multi_gcmd.sh#L22-L35), and change the highlighted lines.
 
 3. Setup the `exp_parameters` file. This is a list of `par1 val1 par2 val2 ...` , where each line represents one model run. Note that parameter names must include all characters before the `=` sign, and values all of the characters after the `=` sign, as is in the experiment run file. For example, this script will modify the ```/experiments/AtmosGCM/heldsuarez.jl``` file and initiate three experiments of ΔT_y=(30K,60K,90K), each running for 0.5 days:
 ```
